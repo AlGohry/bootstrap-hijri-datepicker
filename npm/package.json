@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-hijri-datepicker",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "Hijri date picker for bootstrap v4 and above",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "repository": {
     "type" : "git",
     "url" : "git+https://github.com/balbarak/bootstrap-hijri-datepicker.git"
+  },
+  "dependencies": {
+    "moment":"^2.24.0"
   }
 }
