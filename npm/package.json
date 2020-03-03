@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-hijri-datepicker",
+  "version": "1.0.1",
+  "description": "Hijri date picker for bootstrap v4 and above",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hijri date",
+    "hijri",
+    "boostrap hijri date",
+    "datetime picker",
+    "date",
+    "datepicker",
+    "date picker"
+  ],
+  "author": "balbarak",
+  "license": "MIT",
+  "homepage": "https://github.com/balbarak/bootstrap-hijri-datepicker",
+  "repository": {
+    "type" : "git",
+    "url" : "git+https://github.com/balbarak/bootstrap-hijri-datepicker.git"
+  }
+}

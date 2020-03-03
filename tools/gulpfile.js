@@ -20,7 +20,8 @@ gulp.task('minify-js', ()=> {
         min: ".min.js"
       }
     }))
-    .pipe(gulp.dest('../dist/js'));
+    .pipe(gulp.dest('../dist/js'))
+    .pipe(gulp.dest('../npm/dist/js'));
 });
 
 
@@ -30,7 +31,8 @@ gulp.task('minify-css', () => {
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('../dist/css'));
+    .pipe(gulp.dest('../dist/css'))
+    .pipe(gulp.dest('../npm/dist/css'));
 });
 
 gulp.task('copy', () => {
